@@ -6,6 +6,7 @@
             "src/*": ["./src/*"]
         },
         "types": [
+          "chai",
           "mocha",
           "node",
           "@wdio/sync"

@@ -168,8 +168,12 @@ exports.config = {
     // before: function (capabilities, specs) {
     // },
     before: function() {
-      // not needed for Cucumber
-      require('ts-node').register({ files: true })
+      // Register TS-Node for run-time transpiling
+      require('ts-node').register({ files: true });
+
+      const chai = require('chai');
+      global.expect = chai.expect;
+      chai.Should();
     },
     /**
      * Runs before a WebdriverIO command gets executed.
