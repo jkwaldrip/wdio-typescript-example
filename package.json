@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/chai": "^4.2.4",
     "@types/mocha": "^5.2.7",
-    "@wdio/mocha-framework": "^5.15.1",
+    "@wdio/mocha-framework": "^8.0.14",
     "@wdio/sync": "^5.15.1",
     "chai": "^4.2.0",
     "ts-node": "^8.4.1",
